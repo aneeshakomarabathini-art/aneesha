@@ -1,0 +1,78 @@
+body {
+
+    font-family: Arial;
+    background: #fff5f8;
+    margin: 0;
+
+}
+
+
+
+.login-box {
+
+
+    width: 300px;
+    background: white;
+    padding: 30px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ccc;
+
+
+}
+
+
+input,
+select {
+
+
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+
+}
+
+
+
+button {
+
+
+    background: #ff9900;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+
+
+
+.product-details {
+
+
+    background: white;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+
+
+}
+
+
+
+.product-details img {
+
+
+    width: 250px;
+    height: 250px;
+
+
+}

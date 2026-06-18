@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <div class="login-box">
+
+
+        <h1>💳 Payment</h1>
+
+
+        <input placeholder="Card Number">
+
+
+        <input placeholder="Expiry Date">
+
+
+        <input placeholder="CVV">
+
+
+        <select>
+
+            <option>UPI</option>
+
+            <option>Credit Card</option>
+
+            <option>Debit Card</option>
+
+            <option>Cash On Delivery</option>
+
+        </select>
+
+
+        <button onclick="pay()">
+
+            Pay Now
+
+        </button>
+
+
+    </div>
+
+
+
+    <script>
+
+        function pay() {
+
+            alert("Payment Successful 🎉");
+
+            location.href = "orders.html";
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
