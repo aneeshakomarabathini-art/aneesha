@@ -4,7 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello BabyKart'
+                sh 'echo Building BabyKart Application'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh 'echo Testing BabyKart Application'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                sh 'echo Deploying BabyKart Application'
             }
         }
     }
